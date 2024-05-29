@@ -9,12 +9,12 @@ def busqueda_binaria(lista, objetivo):
         else:
             derecha = medio - 1
     return -1
-# Definición de datos de prueba
+# datos de prueba
 lista_desordenada = [4, 2, 5, 1, 3]
 lista_ordenada = sorted(lista_desordenada)
 objetivo_presente = 3
 objetivo_ausente = 6
 
 # Pruebas de Búsqueda Binaria
-print(busqueda_binaria(lista_ordenada, objetivo_presente))    # Debe retornar 2
-print(busqueda_binaria(lista_ordenada, objetivo_ausente))     # Debe retornar -1
+print(busqueda_binaria(lista_ordenada, objetivo_presente))    # retornar 2
+print(busqueda_binaria(lista_ordenada, objetivo_ausente))     # retornar -1
